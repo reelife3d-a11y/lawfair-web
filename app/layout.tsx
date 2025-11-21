@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: "/lawfair-favicon.png",
     shortcut: "/lawfair-favicon.png",
     apple: "/lawfair-favicon.png", // iPhone/iPad Home Screen icon
-};
+},
 
 export default function RootLayout({
   children,
