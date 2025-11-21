@@ -20,20 +20,18 @@ export default function Home() {
 
       {/* Navbar */}
 <header className="w-full absolute top-0 left-0 z-10">
-  <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-between">
+  <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-center">
 
-    <div className="flex items-center gap-3">
-      
-      <Image
-        src="/logo.png"
-        alt="LawFair Logo"
-        width={160}
-        height={160}
-        style={{ marginTop: "40px" }}
-        className="rounded-md"
-            />
-            
-          </div>
+    <Image
+      src="/logo.png"
+      alt="LawFair Logo"
+      width={160}
+      height={160}
+      className="rounded-md mt-6"
+    />
+
+  </div>
+
 
           {/* Optional Right Side (future) */}
           <nav>
