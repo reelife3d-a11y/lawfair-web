@@ -26,8 +26,9 @@ export default function Home() {
       <Image
         src="/logo.png"
         alt="LawFair Logo"
-        width={240}
-        height={240}
+        width={200}
+        height={200}
+        style={{ marginTop: "40px" }}
         className="rounded-md"
             />
             
