@@ -18,32 +18,27 @@ export default function Home() {
       {/* Dark Overlay */}
       <div className="absolute inset-0 -z-10 bg-[#0b1120]/85"></div>
 
-      {/* Navbar */}
+{/* Navbar */}
 <header className="w-full absolute top-0 left-0 z-10">
-  <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-center">
+  <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-center relative">
 
+    {/* Centered Logo */}
     <Image
       src="/logo.png"
       alt="LawFair Logo"
-      width={160}
-      height={160}
+      width={629}
+      height={132}
       className="rounded-md mt-6"
     />
 
+    {/* Optional Right Side (future menu) */}
+    <nav className="absolute right-4 top-1/2 -translate-y-1/2">
+      {/* Add Login/Dashboard later */}
+      {/* <a className="text-gray-300 hover:text-white text-sm">Login</a> */}
+    </nav>
+
   </div>
-
-
-          {/* Optional Right Side (future) */}
-          <nav>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-white transition text-sm"
-            >
-              {/* Add Login or Dashboard later */}
-            </a>
-          </nav>
-        </div>
-      </header>
+</header>
 
       {/* Hero Content */}
       <section className="flex flex-col justify-center items-center text-center min-h-screen px-6 max-w-4xl mx-auto">
