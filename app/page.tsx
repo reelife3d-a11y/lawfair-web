@@ -23,11 +23,17 @@ export default function Home() {
   <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-between">
 
     <div className="flex items-center gap-3">
+      <div style={{
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  
+}}></div>
       <Image
         src="/logo.png"
         alt="LawFair Logo"
-        width={200}
-        height={200}
+        width={180}
+        height={180}
         style={{ marginTop: "40px" }}
         className="rounded-md"
             />
