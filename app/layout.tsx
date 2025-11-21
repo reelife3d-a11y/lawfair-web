@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/lawfair-favicon.png",
     shortcut: "/lawfair-favicon.png",
-    apple: "/lawfair-favicon.png",
+    apple: "/apple-touch-icon.png",
   },
 }; // <<--- THIS was missing
 
