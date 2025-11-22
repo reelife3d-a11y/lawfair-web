@@ -19,25 +19,25 @@ export default function Home() {
       <div className="absolute inset-0 -z-10 bg-[#0b1120]/85"></div>
 
       {/* Navbar */}
-      <header className="w-full absolute top-0 left-0 z-10">
-        <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-center relative">
+<header className="w-full absolute top-0 left-0 z-10">
+  <div className="max-w-7xl mx-auto px-3 py-5 flex items-center justify-center relative">
 
-          {/* Centered Logo */}
-<Image
-  src="/logo.png"
-  alt="LawFair Logo"
-  width={180}
-  height={80}
-  className="rounded-md mt-6 opacity-0 animate-fadeIn"
-/>
+    {/* Centered Logo */}
+    <Image
+      src="/logo.png"
+      alt="LawFair Logo"
+      width={180}
+      height={80}
+      className="rounded-md mt-6 opacity-0 animate-fadeIn"
+    />
 
-          </div>
+    {/* Optional Right Side */}
+    <nav className="absolute right-4 top-1/2 -translate-y-1/2">
+      {/* future buttons */}
+    </nav>
 
-          {/* Optional Right Side */}
-          <nav className="absolute right-4 top-1/2 -translate-y-1/2"></nav>
-
-        </div>
-      </header>
+  </div>
+</header>
 
       {/* Hero Content */}
       <section className="flex flex-col justify-center items-center text-center min-h-screen px-6 max-w-4xl mx-auto">
