@@ -31,5 +31,5 @@ body {
 }
 
 .animate-fadeIn {
-  animation: fadeIn 0.7s ease-out forwards;
+  animation: fadeIn 1.2s ease-out forwards;
 }
