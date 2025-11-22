@@ -20,7 +20,11 @@ export const metadata: Metadata = {
     shortcut: "/lawfair-favicon.png",
     apple: "/apple-touch-icon.png",
   },
-}; // <<--- THIS was missing
+  manifest: "/site.webmanifest",
+  other: {
+    "mask-icon": "/safari-pinned-tab.svg",
+  },
+};
 
 export default function RootLayout({
   children,
